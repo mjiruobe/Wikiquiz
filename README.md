@@ -7,6 +7,11 @@ For now this project only works for the german language. For other languages you
 
 This Repository only contains the backend service - for the frontend visit https://github.com/mjiruobe/Wikiquiz-Android
 
+
+https://github.com/mjiruobe/Wikiquiz/assets/68758914/09e8c2ff-7cd0-42f2-8f97-64120a5f1b09
+
+
+
 ## How to run
 
 - Install _docker_ and _git_ if not done yet.
