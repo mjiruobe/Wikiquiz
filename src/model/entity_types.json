@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Person",
+    "relationships": [
+      {
+        "name": "Geburtsort",
+        "property_id": "P19",
+        "relationship_de": "geboren_in"
+      },
+      {
+        "name": "Mutter",
+        "property_id": "P25",
+        "relationship_de": "geboren_von"
+      },
+      {
+        "name": "Unverheiratete Partner:in",
+        "property_id": "P451",
+        "relationship_de": "in_Partnerschaft_mit"
+      },
+      {
+        "name": "Verwandte:r",
+        "property_id": "P1038",
+        "relationship_de": "verwandt_mit"
+      },
+      {
+        "name": "Beruf",
+        "property_id": "P106",
+        "relationship_de": "von_Beruf"
+      },
+      {
+        "name": "Hochschulabschluss",
+        "property_id": "P812",
+        "relationship_de": "ausgebildet_in"
+      },
+      {
+        "name": "Ausbildungsort",
+        "property_id": "P69",
+        "relationship_de": "ausgebildet_bei"
+      }
+    ]
+  }
+]
