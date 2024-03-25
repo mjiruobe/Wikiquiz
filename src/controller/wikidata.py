@@ -49,7 +49,8 @@ class WikiDataInterface:
         try:
             if entity_id is None:
                 return None
-            return WikiDataInterface.get_entity_data(entity_id)['claims'][property_id][0]['mainsnak']['datavalue']['value']['id']
+            wikiDataValue = WikiDataInterface.get_entity_data(entity_id)['claims'][property_id][0]['mainsnak']['datavalue']['value']
+            return wikiDataValue
         except Exception as err:
             return None
 
@@ -81,3 +82,11 @@ class WikiDataInterface:
         for key, value in entity.data.items():
             properties[key] = value
         return properties
+
+    def isMetaProperty(entity_id):
+        try:
+            if entity_id is None:
+                return False
+            return "Wikidata-Eigenschaft" in WikiDataInterface.get_entity_properties(entity_id)['labels']['de']['value']
+        except Exception as err:
+            return False

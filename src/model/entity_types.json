@@ -13,6 +13,11 @@
         "relationship_de": "geboren_von"
       },
       {
+        "name": "Vater",
+        "property_id": "P22",
+        "relationship_de": "ist_Sohn_von"
+      },
+      {
         "name": "Unverheiratete Partner:in",
         "property_id": "P451",
         "relationship_de": "in_Partnerschaft_mit"
@@ -36,6 +41,31 @@
         "name": "Ausbildungsort",
         "property_id": "P69",
         "relationship_de": "ausgebildet_bei"
+      },
+      {
+        "name": "Spitznamen",
+        "property_id": "P1449",
+        "relationship_de": "auch_bekannt_als"
+      },
+      {
+        "name": "Grabstättenort",
+        "property_id": "P119",
+        "relationship_de": "begraben_bei"
+      },
+      {
+        "name": "Todesursache",
+        "property_id": "P509",
+        "relationship_de": "gestorben_durch"
+      },
+      {
+        "name": "Weltanschauung",
+        "property_id": "P140",
+        "relationship_de": "hat_Weltanschaung"
+      },
+      {
+        "name": "Erkrankung",
+        "property_id": "P1050",
+        "relationship_de": "hat_Erkrankung"
       }
     ]
   }
