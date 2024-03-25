@@ -16,6 +16,8 @@ class PromptBuilder:
             property_id = entity_attrs['property_id']
             node = WikiNode.fromEntityProperty(mainNode, property_id)
             name = entity_attrs['name']
+            if name is None or mainNode.value is None or mainNode.type is None or node.type is None or node.value is None:
+                continue
             llm_prompt = f"Frage nach den {name} von {mainNode.value} ({mainNode.type}). Stelle vier Optionen ({node.type}) bereit darunter die richtige Antwort {node.value}"
             questions.append(Question(self._wikiURL, node.value, llm_prompt))
         return questions
