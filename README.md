@@ -18,7 +18,7 @@ https://github.com/mjiruobe/Wikiquiz/assets/68758914/6efb457f-1304-41e9-9b5d-d8f
 - Install _docker_ and _git_ if not done yet.
 - Execute the command: `git clone https://github.com/mjiruobe/Wikiquiz`
 - Execute: `cd Wikiquiz`
-- Enter a Open AI API Key in .env.example file and rename it to .env, also put a API Key in this file to secure your Wikiquiz Instance from unauthorized access.
+- Enter a Open AI API Key in .env.example file and rename it to .env, also put a API Key in this file to secure your Wikiquiz Instance from unauthorized access. Also give the Mongo DB a username and password for making it more secure.
 - Execute: `docker compose up`
 - Follow the instructions of https://github.com/mjiruobe/Wikiquiz-Android to create an Flutter (Android client) for this Wikiquiz backend.
 
