@@ -7,7 +7,12 @@
 
     This Repository only contains the backend service - for the frontend visit https://github.com/mjiruobe/Wikiquiz-Android
 
-    ## How to run
+
+https://github.com/mjiruobe/Wikiquiz/assets/68758914/09e8c2ff-7cd0-42f2-8f97-64120a5f1b09
+
+
+
+## How to run
 
     - Install _docker_ and _git_ if not done yet.
     - Execute the command: `git clone https://github.com/mjiruobe/Wikiquiz`
